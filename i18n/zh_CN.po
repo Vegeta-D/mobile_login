@@ -1,0 +1,83 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* n_mobile_login
+#
+# Translators:
+# Ryan Lee <liyueface@gmail.com>, 2025
+
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-27 20:52+0000\n"
+"PO-Revision-Date: 2025-11-27 20:52+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: n_mobile_login
+#. odoo-python
+#: code:addons/n_mobile_login/models/res_users.py:0
+msgid ""
+"Invalid mobile number format, please enter 11-digit valid mobile number"
+msgstr "手机号码格式无效，请输入11位有效手机号码。"
+
+#. module: n_mobile_login
+#. odoo-python
+#: code:addons/n_mobile_login/models/res_users.py:0
+msgid "Login or password is missing"
+msgstr "登录名或密码缺失"
+
+#. module: n_mobile_login
+#: model_terms:ir.ui.view,arch_db:n_mobile_login.view_users_form_mobile
+msgid "Mobile"
+msgstr "手机号"
+
+#. module: n_mobile_login
+#: model:ir.model.fields,field_description:n_mobile_login.field_res_users__mobile_login
+msgid "Mobile Login"
+msgstr "手机号"
+
+#. module: n_mobile_login
+#: model:ir.model.constraint,message:n_mobile_login.constraint_res_users_mobile_login_unique
+msgid "Mobile number must be unique!"
+msgstr "手机号码必须唯一"
+
+#. module: n_mobile_login
+#: model:ir.model.fields,help:n_mobile_login.field_res_users__mobile_login
+msgid "Use for mobile number login"
+msgstr "用于手机号码登录"
+
+#. module: n_mobile_login
+#: model:ir.model,name:n_mobile_login.model_res_users
+msgid "User"
+msgstr "用户"
+
+#. module: n_mobile_login
+#. odoo-python
+#: code:addons/n_mobile_login/models/res_users.py:0
+msgid "Wrong login or password"
+msgstr "登录名或密码错误"
+
+#. module: n_mobile_login
+#: model_terms:ir.ui.view,arch_db:n_mobile_login.login_page_mobile_integrate
+msgid "Email address / Mobile Number"
+msgstr "电子邮箱 / 手机号"
+
+#. module: n_mobile_login
+#: model_terms:ir.ui.view,arch_db:n_mobile_login.view_users_form_mobile
+msgid "After setting it up, you can log in to the system using your mobile phone number."
+msgstr "设置后可以使用手机号登录系统"
+
+#. module: n_mobile_login
+#: model_terms:ir.ui.view,arch_db:n_mobile_login.view_users_form_mobile
+msgid "Please enter your mobile phone number."
+msgstr "请输入手机号码"
+
+#. module: n_mobile_login
+#: model_terms:ir.ui.view,arch_db:n_mobile_login.login_page_mobile_integrate
+msgid "Please enter email address or mobile number."
+msgstr "请输入电子邮箱或手机号"

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="login_page_mobile_integrate" inherit_id="web.login" name="Login Page Mobile Integrate">
+        <xpath expr="//label[@for='login']" position="replace">
+            <label for="login" class="form-label d-flex justify-content-between">Email address / Mobile Number</label>
+        </xpath>
+        <xpath expr="//input[@name='login']" position="attributes">
+            <attribute name="placeholder">Please enter email address or mobile number.</attribute>
+        </xpath>
+    </template>
+</odoo>
